@@ -20,10 +20,10 @@ The trick is to apply the DRY principle only when you need to. If you notice chu
 # SOLID
 SOLID principle supports good object-oriented design and programming. Five of these principles are described as SOLID: 
 <b>S</b>ingle responsibility<br/>
-Open-closed<br/> 
-Liskov substitution<br/>
-Interface segregation<br/>
-Dependency inversion<br/>
+<b>O</b>pen-closed<br/> 
+<b>L</b>iskov substitution<br/>
+<b>I</b>nterface segregation<br/>
+<b>D</b>ependency inversion<br/>
 (Check out SOLID Principles Repository)
 
 # Separation of Concerns
@@ -33,9 +33,9 @@ A key principle of software development and architecture is the notion of separa
 The Once and Only Once principle can be thought of as a subset of the Don’t Repeat Yourself principle, and is one of the most fundamental principles of software development.  Once and Only Once basically states that any given behavior within an application is defined Once and Only Once.  Duplication of behavior is one of the most common sources of bugs in software systems, since it becomes increasingly likely that changes to behavior defined in one location may not be propagated to all locations where this behavior is defined.  Eliminating the duplication caused by not following the Once and Only Once principle is one of the primary reasons for refactoring and is also at the core of many design patterns.
 
 # STUPID
-Singleton<br/>
-Tight Coupling<br/>
-Untestability<br/>
-Premature Optimization<br/>
-Indescriptive Naming<br/>
-Duplication<br/>
+<b>S</b>ingleton<br/>
+<b>T</b>ight Coupling<br/>
+<b>U</b>ntestability<br/>
+<b>P</b>remature Optimization<br/>
+<b>I</b>ndescriptive Naming<br/>
+<b>D</b>uplication<br/>
