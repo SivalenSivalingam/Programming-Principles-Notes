@@ -104,3 +104,5 @@ Low Coupling<br/>
 Polymorphism<br/>
 Protected Classes<br/>
 
+# Hollywood Principle
+<b>“don’t call us, we’ll call you”.</b> At its most basic level, the principle is about reducing the coupling in a software system. It gets back to the well known phrase in software development: loose coupling and high cohesion. You can keep classes loosely coupled by ensuring that you don’t have unnecessary references and you are referencing classes and other subsystems properly.
