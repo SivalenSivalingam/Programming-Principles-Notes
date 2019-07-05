@@ -16,3 +16,6 @@ The “you aren’t gonna need it” principle is the idea that you should never
 You could view this as a specific application of the KISS principle and a response to those who take the DRY principle too seriously. Often inexperienced programmers try to write the most abstract and generic code possible to avoid WET code, but too much abstraction ends up in bloated impossible-to-maintain code.
 
 The trick is to apply the DRY principle only when you need to. If you notice chunks of code being written over and over, then abstract them — but never when you think a piece of code will be written over and over. More times than not, it won’t be.
+
+# SOLID
+SOLID principle supports good object-oriented design and programming. Five of these principles are described as SOLID: Single responsibility, Open-closed, Liskov substitution, Interface segregation, and Dependency inversion. (Check out SOLID Principles Repository)
