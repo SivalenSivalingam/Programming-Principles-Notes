@@ -93,3 +93,14 @@ One of the reason of code duplication is tight coupling. If your code is tightly
 
 # GRASP 
 GRASP (General Responsibility Assignment Software Patterns) is a design pattern in object-oriented software development used to assign responsibilities for different modules of code.
+
+GRASP assigns seven types of roles to classes and objects in order to make for clear delineation of responsibilities. These roles are:
+
+Controlle<br/>
+Information Expert<br/>
+Creator<br/>
+High Cohesion<br/>
+Low Coupling<br/>
+Polymorphism<br/>
+Protected Classes<br/>
+
