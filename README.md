@@ -39,3 +39,54 @@ The Once and Only Once principle can be thought of as a subset of the Don’t Re
 <b>P</b>remature Optimization<br/>
 <b>I</b>ndescriptive Naming<br/>
 <b>D</b>uplication<br/>
+<br/>
+Singleton
+
+The Singleton pattern is, in my opinion, one of the most well-known design pattern as  lots of OOP design books start with this pattern. I am sure with 99% probability that singleton is the first pattern you have learnt.
+
+ The main problem with this pattern may be based on this fact.
+
+After you have seen this pattern like the first item in patterns list, you think the Singleton pattern is the most appropriate pattern for every case you have. In other words, you use it everywhere. That is definitely not cool.
+
+At the same time a lot of developers consider Singleton to be an anti-pattern. “Wow!”- you said now. But it’s true, cause singleton represents a global state and there are some problems with that:
+
+Applications using global state are more difficult to test;
+
+Applications that rely on global state hide their dependencies;
+
+These difficulties were particularly described in Singleton – Singleton pattern: light or dark side of the Force.
+
+But should you really avoid them all the time? May be not, but I would say you can often replace the use of singleton by something better. Avoiding static things is important to avoid something called tight coupling.
+
+Tight Coupling
+
+Basically, you should reduce coupling between your classes or application’s modules. Coupling is a degree to which each program module relies on each one of the other modules.
+
+Whenever your code contains implementation like Singleton::getInstance(), you are tightly coupling your code to the Singleton class. This makes extending Singleton functionally impossible and makes your code hard to reuse. That’s bad since it doesn’t allow to make further changes such as replacing the instance by an instance of a sub-class, a mock or whatever. Inability to replace this code with mocks leads to untestability.
+
+Untestability
+
+Usually you can face tight coupling problems trying to create unit tests. Unit test is used to check small module of application like a method. To test each method in class separately you need to isolate class from other dependencies. Obviously, if we have tight coupled classes it’s harder to isolate them from each other. You probably can do it somehow, through enormous efforts or some dirty tricks. There are cases when developers usually don’t do this to save time and just leave their code untested and broken.
+
+If your code is good you can test it in no time. Only with bad code unit testing becomes a nightmare.
+
+Premature Optimization
+
+Premature optimization is not bad if we talk about:
+
+1) Architectural optimization – for instance, optimize separated components and layers to eliminate tight coupling and follow Dependency Inversion principle.
+
+2) Data flow optimization – optimize or change some data structure, change ways of data processing, etc.
+
+But micro premature optimization is reason of many problems. Doing this you add redundant complexity to your application. And the worst thing that can happen, when none of team-mates except of you is be able to understand this complexity since it corresponds to some future possible/impossible application cases. Moreover, this kind of optimization can hurt current productivity. So, take care about current problems and code readability and flexibility as if you are going to expand your current code for new features or changes. That won’t be hard to do it thanks to your good architecture.
+
+Indescriptive Naming
+Indescriptive class/field/method naming is a bad code smell. When you write your application, please, don’t forget that another people may maintain your code in future. If  you fully understand the abbreviations in your methods, other people may not be on the same wavelength with you. Moreover, today you remember these unassociated names but what if you need to update your application in a few months or years? To my mind, you will be the first victim of absence naming strategy.
+
+ 
+
+Duplication
+
+Please, be faithful to DRY (Don’t repeat yourself) principle. You enhance complexity of alteration in application by making duplication in the code. It leads to situation when you need to spend a lot of time, alter different  classes (in the most cases they are not) to change some small piece of logic.
+
+One of the reason of code duplication is tight coupling. If your code is tightly coupled, you just can’t reuse it. And here comes your duplication.
