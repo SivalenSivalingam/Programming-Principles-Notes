@@ -96,7 +96,7 @@ GRASP (General Responsibility Assignment Software Patterns) is a design pattern 
 
 GRASP assigns seven types of roles to classes and objects in order to make for clear delineation of responsibilities. These roles are:
 
-Controlle<br/>
+Controller<br/>
 Information Expert<br/>
 Creator<br/>
 High Cohesion<br/>
