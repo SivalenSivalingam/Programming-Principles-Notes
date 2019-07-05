@@ -90,3 +90,6 @@ Indescriptive class/field/method naming is a bad code smell. When you write your
 Please, be faithful to DRY (Don’t repeat yourself) principle. You enhance complexity of alteration in application by making duplication in the code. It leads to situation when you need to spend a lot of time, alter different  classes (in the most cases they are not) to change some small piece of logic.
 
 One of the reason of code duplication is tight coupling. If your code is tightly coupled, you just can’t reuse it. And here comes your duplication.
+
+# GRASP 
+General Responsibility Assignment Software Patterns
