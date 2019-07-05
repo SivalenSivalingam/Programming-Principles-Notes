@@ -22,3 +22,6 @@ SOLID principle supports good object-oriented design and programming. Five of th
 
 # Separation of Concerns
 A key principle of software development and architecture is the notion of separation of Separation-of-Concerns-Feb-2013concerns.  At a low level, this principle is closely related to the Single Responsibility Principle of object oriented programming.  The general idea is that one should avoid co-locating different concerns within the design or code.
+
+# Once and Only Once
+The Once and Only Once principle can be thought of as a subset of the Don’t Repeat Yourself principle, and is one of the most fundamental principles of software development.  Once and Only Once basically states that any given behavior within an application is defined Once and Only Once.  Duplication of behavior is one of the most common sources of bugs in software systems, since it becomes increasingly likely that changes to behavior defined in one location may not be propagated to all locations where this behavior is defined.  Eliminating the duplication caused by not following the Once and Only Once principle is one of the primary reasons for refactoring and is also at the core of many design patterns.
