@@ -81,7 +81,8 @@ Premature optimization is not bad if we talk about:
 
 But micro premature optimization is reason of many problems. Doing this you add redundant complexity to your application. And the worst thing that can happen, when none of team-mates except of you is be able to understand this complexity since it corresponds to some future possible/impossible application cases. Moreover, this kind of optimization can hurt current productivity. So, take care about current problems and code readability and flexibility as if you are going to expand your current code for new features or changes. That won’t be hard to do it thanks to your good architecture.
 
-<b>Indescriptive Naming</b>
+<b>Indescriptive Naming</b><br/>
+
 Indescriptive class/field/method naming is a bad code smell. When you write your application, please, don’t forget that another people may maintain your code in future. If  you fully understand the abbreviations in your methods, other people may not be on the same wavelength with you. Moreover, today you remember these unassociated names but what if you need to update your application in a few months or years? To my mind, you will be the first victim of absence naming strategy.
 
 <b>Duplication</b>
