@@ -27,9 +27,9 @@ A key principle of software development and architecture is the notion of separa
 The Once and Only Once principle can be thought of as a subset of the Don’t Repeat Yourself principle, and is one of the most fundamental principles of software development.  Once and Only Once basically states that any given behavior within an application is defined Once and Only Once.  Duplication of behavior is one of the most common sources of bugs in software systems, since it becomes increasingly likely that changes to behavior defined in one location may not be propagated to all locations where this behavior is defined.  Eliminating the duplication caused by not following the Once and Only Once principle is one of the primary reasons for refactoring and is also at the core of many design patterns.
 
 # STUPID
-Singleton
-Tight Coupling
-Untestability
-Premature Optimization
-Indescriptive Naming
-Duplication
+Singleton<br/>
+Tight Coupling<br/>
+Untestability<br/>
+Premature Optimization<br/>
+Indescriptive Naming<br/>
+Duplication<br/>
