@@ -92,4 +92,4 @@ Please, be faithful to DRY (Don’t repeat yourself) principle. You enhance comp
 One of the reason of code duplication is tight coupling. If your code is tightly coupled, you just can’t reuse it. And here comes your duplication.
 
 # GRASP 
-General Responsibility Assignment Software Patterns
+GRASP (General Responsibility Assignment Software Patterns) is a design pattern in object-oriented software development used to assign responsibilities for different modules of code.
