@@ -1,5 +1,4 @@
 # Programming-Principles
-Programming-Principles
 
 # KISS
 The “keep it simple, stupid” principle applies to pretty much all of life, but it’s especially necessary in medium-to-large programming projects.
