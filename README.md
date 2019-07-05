@@ -18,7 +18,13 @@ You could view this as a specific application of the KISS principle and a respon
 The trick is to apply the DRY principle only when you need to. If you notice chunks of code being written over and over, then abstract them — but never when you think a piece of code will be written over and over. More times than not, it won’t be.
 
 # SOLID
-SOLID principle supports good object-oriented design and programming. Five of these principles are described as SOLID: Single responsibility, Open-closed, Liskov substitution, Interface segregation, and Dependency inversion. (Check out SOLID Principles Repository)
+SOLID principle supports good object-oriented design and programming. Five of these principles are described as SOLID: 
+<b>S</b>ingle responsibility<br/>
+Open-closed<br/> 
+Liskov substitution<br/>
+Interface segregation<br/>
+Dependency inversion<br/>
+(Check out SOLID Principles Repository)
 
 # Separation of Concerns
 A key principle of software development and architecture is the notion of separation of Separation-of-Concerns-Feb-2013concerns.  At a low level, this principle is closely related to the Single Responsibility Principle of object oriented programming.  The general idea is that one should avoid co-locating different concerns within the design or code.
